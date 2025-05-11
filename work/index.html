@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <link href="//fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" href="../css/accord.css">
+    <title>JetRabbits-разработка it решений</title>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function (m, e, t, r, i, k, a) {
+            m[i] = m[i] || function () {
+                (m[i].a = m[i].a || []).push(arguments)
+            };
+            m[i].l = 1 * new Date();
+            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+        ym(66627130, "init", {
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true,
+            webvisor: true
+        });
+    </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/66627130" style="position:absolute; left:-9999px;" alt=""/></div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
+</head>
+<body>
+<!--Модалка "конакты"-->
+<div id="myModal">
+    <div class="mod_contact_content">
+        <div class="mod_contact_left">
+            <h3>Наши контакты</h3>
+            <a href="mailto:sales@jetrabbits.com"><span><i class="fas fa-at"></i>sales@jetrabbits.com</span></a>
+            <a href="mailto:hr@jetrabbits.com"><span><i class="fas fa-at"></i>hr@jetrabbits.com</span></a>
+        </div>
+        <div class="mod_contact_right">
+            <h3>Наше местоположение</h3>
+            <a href="https://yandex.ru/maps/-/CCQtBEescC" target="_blank"><p>г.Тольятти ул.Фрунзе 14Б</p></a>
+        </div>
+    </div>
+    <span id="myModal__close" class="close"><i class="fas fa-times"></i></span>
+</div>
+<div id="myOverlay"></div>
+<header>
+    <div class="container">
+        <div class="header">
+            <a href="/"><img src="/img/logo.png" alt="Jetrabbits" class="logo"></a>
+            <nav>
+
+                <a class="menu-toggle" href="#">
+                    <svg class="ham hamRotate ham8" viewBox="0 0 100 100" width="80"
+                         onclick="this.classList.toggle('active')">
+                        <path
+                                class="line top"
+                                d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"/>
+                        <path
+                                class="line middle"
+                                d="m 30,50 h 40"/>
+                        <path
+                                class="line bottom"
+                                d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"/>
+                    </svg>
+                </a>
+                <ul class="menu">
+                    <li>
+                        <a href="/" class="text-decoration-none">Главная</a>
+                    </li>
+                    <!-- <li>
+                        <a href="/portfolio.html" class="text-decoration-none">Портфолио</a>
+                    </li> -->
+                    <li>
+                        <a href="#" class="myLinkModal text-decoration-none">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<div class="go_back">
+    <div class="container">
+        <a href="../" class="back_to_main"><i class="fas fa-long-arrow-alt-left" style="margin-right: 5px;"></i>Вернуться
+            на главную</a>
+    </div>
+</div>
+
+
+<div class="work_main">
+    <script type="text/javascript">
+        const rule = `url('../img/work_bg.jpg')`;
+        document.getElementsByClassName('work_main')[0].setAttribute('style', `background: ${rule}; background-repeat: no-repeat;background-size: cover;background-position: center;`);
+    </script>
+    <div class="container">
+        <div class="work_main_title">
+            <h1>Мы всегда ищем классных специалистов в нашу команду</h1>
+            <a href="#rec_job" style="text-decoration: none;">Актуальные вакансии</a>
+            <span><i class="fas fa-map-marker-alt"></i>г.Тольятти</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="work_perspect wow fadeIn">
+    <div class="container">
+        <h1>Преимущества работы у нас</h1>
+        <div class="work_cards">
+            <div class="card_work">
+                <img src="../img/money.png" alt="">
+                <p>Конкурентная заработная плата</p>
+            </div>
+            <div class="card_work">
+                <img src="../img/grow.png" alt="">
+                <p>Высокие перспективы карьерного роста</p>
+            </div>
+            <div class="card_work">
+                <img src="../img/team.png" alt="">
+                <p>Дружелюбный коллектив</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="rec_job" class="work_content wow fadeInUp">
+    <div class="container">
+        <h1>Актуальные вакансии:</h1>
+        <div class="main">
+            <div>
+                <div class="panel">
+                    <div class="panel-heading">
+                        <a href="#">Flutter разработчик</a>
+                    </div>
+                    <div class="panel-collapse">
+                        <div class="panel-body">
+                            <div class="pre-info">
+                                <p>Уровень зарплаты:<span>по итогам собеседования</span></p>
+                                <p>Опыт работы:<span>от 1 до 3 лет</span></p>
+                                <p>Тип занятости:<span>удаленно</span></p>
+                            </div>
+
+                            <h1>Требования:</h1>
+
+                            <ul>
+                                <li>Опыт коммерческой разработки нативных iOS или Android приложений</li>
+                                <li>Опыт разработки мобильных приложений на Flutter</li>
+                                <li>Хорошие знания Java/Kotlin или Object C/Swift</li>
+                                <li>Знание методологий разработки: ООП, SOLID и паттернов проектирования</li>
+                                <li>Владение и понимание архитектурных паттернов: BLoC, RxDart, Provider</li>
+                                <li>Опыт работы с сетью: REST, Web Sockets</li>
+                                <li>Опыт работы с системами контроля версий (GIT)</li>
+                                <li>Ответственность и пунктуальность</li>
+                            </ul>
+
+                            <h1>Условия:</h1>
+
+                            <ul>
+                                <li>Конкуретная заработная плата</li>
+                                <li>Гибкий график работы</li>
+                                <li>Молодой дружный коллектив, интересные и долгосрочные проекты</li>
+                                <li>Перспективы карьерного и профессионального роста</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="panel">
+                    <div class="panel-heading">
+                        <a href="#">Unity разработчик</a>
+                    </div>
+                    <div class="panel-collapse">
+                        <div class="panel-body">
+
+                            <div class="pre-info">
+                                <p>Уровень зарплаты:<span>по итогам собеседования</span></p>
+                                <p>Опыт работы:<span>от 1 до 3 лет</span></p>
+                                <p>Тип занятости:<span>удаленно</span></p>
+                            </div>
+
+                            <h1>Требования:</h1>
+
+                            <ul>
+                                <li>Хорошие знания Unity и С#</li>
+                                <li>Опыт оптимизации кода и графики под мобильные платформы</li>
+                                <li>Умение интегрировать контент в Unity, понимание специфики платформы</li>
+                                <li>Умение как самостоятельно, так и в команде программистов проектировать архитектуру
+                                    приложений
+                                </li>
+                                <li>Умение оптимизировать используемые ресурсы</li>
+                                <li>Ответственность и пунктуальность</li>
+                            </ul>
+
+                            <h1>Условия:</h1>
+
+                            <ul>
+                                <li>Конкуретная заработная плата</li>
+                                <li>Гибкий график работы</li>
+                                <li>Молодой дружный коллектив, интересные и долгосрочные проекты</li>
+                                <li>Перспективы карьерного и профессионального роста</li>
+                            </ul>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="panel">
+                    <div class="panel-heading">
+                        <a href="#">Python разработчик</a>
+                    </div>
+                    <div class="panel-collapse">
+                        <div class="panel-body">
+
+                            <div class="pre-info">
+                                <p>Уровень зарплаты:<span>по итогам собеседования</span></p>
+                                <p>Опыт работы:<span>от 1 до 3 лет</span></p>
+                                <p>Тип занятости:<span>удаленно</span></p>
+                            </div>
+
+                            <h1>Требования:</h1>
+
+                            <ul>
+                                <li>Мы ожидаем, что у вас есть опыт разработки на Python</li>
+                                <li>Вы работали с базами данных (Postgresql/ MySQL/ Nosql)</li>
+                                <li>Умеете вести конструктивный спор и хотите расти как специалист</li>
+                                <li>Базовые знания Javascript, HTML, CSS</li>
+                                <li>Понимание современных алгоритмов и архитектур</li>
+                                <li>Опыт работы с git</li>
+                                <li>Ответственность и пунктуальность</li>
+                            </ul>
+
+                            <h1>Условия:</h1>
+
+                            <ul>
+                                <li>Конкуретная заработная плата</li>
+                                <li>Гибкий график работы</li>
+                                <li>Молодой дружный коллектив, интересные и долгосрочные проекты</li>
+                                <li>Перспективы карьерного и профессионального роста</li>
+                            </ul>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="panel">
+                    <div class="panel-heading">
+                        <a href="#">UX/UI дизайнер</a>
+                    </div>
+                    <div class="panel-collapse">
+                        <div class="panel-body">
+
+                            <div class="pre-info">
+                                <p>Уровень зарплаты:<span>по итогам собеседования</span></p>
+                                <p>Опыт работы:<span>от 1 до 3 лет</span></p>
+                                <p>Тип занятости:<span>удаленно</span></p>
+                            </div>
+
+                            <h1>Требования:</h1>
+
+                            <ul>
+                                <li>Знания основ: цветоведения и типографики, графического дизайна и композиции</li>
+                                <li>Понимание процесса веб- и мобильной разработки и принципов адаптивной верстки</li>
+                                <li>Владение инструментами Ps, Ai, Sketch / Figma</li>
+                                <li>Умение обосновать свою точку зрения</li>
+                                <li>Наличие сильного портфолио</li>
+                                <li>Ответственность и пунктуальность</li>
+                                <li>Опыт работы UI/UX- или web-дизайнером от одного года</li>
+                            </ul>
+
+                            <h1>Условия:</h1>
+
+                            <ul>
+                                <li>Конкуретная заработная плата</li>
+                                <li>Гибкий график работы</li>
+                                <li>Молодой дружный коллектив, интересные и долгосрочные проекты</li>
+                                <li>Перспективы карьерного и профессионального роста</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="work_resume wow fadeInUp">
+    <div class="container">
+        <div class="work_contact_us">
+            <a class="btn"
+               href="mailto:hr@jetrabbits.com?subject=Работа&body=Укажите желаемую вакансию, контактные данные, а так же расскажите немного о себе">Отправить
+                заявку</a>
+        </div>
+    </div>
+</div>
+
+
+<div class="else_work wow fadeIn">
+    <div class="container">
+        <div class="else_content">
+            <h2>
+                Если вы не нашли свою вакансию
+            </h2>
+            <p>Свяжитесь с нашим руководителем любым удобным для вас способом.
+                Мы всегда находимся в поиске выдающихся разработчиков,
+                возможно, нам нужны именно вы.
+            </p>
+            <a href="mailto:hr@jetrabbits.com?subject=Работа&body=Укажите желаемую вакансию, контактные данные, а так же расскажите немного о себе"><span><i
+                    class="fas fa-at"></i> hr@jetrabbits.com</span></a>
+        </div>
+    </div>
+</div>
+
+
+<footer id="rec4" class="footer">
+    <div class="container">
+        <div class="foot_content">
+            <div class="logo_footer">
+                <img src="/img/logo2.png" alt="">
+            </div>
+            <div class="copyright1">
+                © <span id="year">2021</span> Все права защищены
+            </div>
+            <div class="foot_contact">
+                <a href="mailto:sales@jetrabbits.com"><img loading="lazy" src="../img/mail-ico.png">sales@jetrabbits.com</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<div id="upbutton"><img src="../img/up.png" alt=""></div>
+<script src="//kit.fontawesome.com/55744dd039.js" crossorigin="anonymous" defer></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script src="//code.jquery.com/jquery-3.4.1.min.js" defer></script>
+<script>
+    new WOW().init();
+</script>
+<script src="../js/main.js" defer></script>
+<script src="//code-ya.jivosite.com/widget/prr49mNJyI" async defer></script>
+</body>
+</html>

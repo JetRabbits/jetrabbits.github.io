@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title>JetRabbits-разработка it решений</title>
+</head>
+<body>
+<!--<div id="page-preloader" class="preloader">
+    <div class="loader">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+    </div>
+</div>
+!-->
+
+
+<div id="myModal">
+    <div class="mod_contact_content">
+        <div class="mod_contact_left">
+            <h3>Наши контакты</h3>
+            <div class="mod_mail">
+                <i class="fas fa-at"></i>
+                <p>sales@jetrabbits.com</p>
+            </div>
+            <div class="mod_vk">
+                <i class="fab fa-vk"></i>
+                <p>vk.com/jetrabbits</p>
+            </div>
+            <div class="mod_behance">
+                <i class="fab fa-behance"></i>
+                <p>behance.net/JetRabbits</p>
+            </div>
+        </div>
+        <div class="mod_contact_right">
+            <h3>Наше местоположение</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2372.318136532813!2d49.280992216828764!3d53.51637492824762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x416879871862c65b%3A0xf86b34be42543343!2z0YPQuy4g0KTRgNGD0L3Qt9C1LCAxNNCRLCDQotC-0LvRjNGP0YLRgtC4LCDQodCw0LzQsNGA0YHQutCw0Y8g0L7QsdC7LiwgNDQ1MDM3!5e0!3m2!1sru!2sru!4v1586636073807!5m2!1sru!2sru"
+                    width="100%" height="300px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
+            <p>г.Тольятти ул.Фрунзе 14Б</p>
+        </div>
+    </div>
+    <span id="myModal__close" class="close"><i class="fas fa-times"></i></span>
+</div>
+<div id="myOverlay"></div>
+
+
+<header>
+    <div class="container">
+        <div class="header">
+            <a href="/"><img src="img/logo.png" alt="Jetrabbits" class="logo"></a>
+            <nav>
+
+                <a class="menu-toggle" href="#">
+                    <svg class="ham hamRotate ham8" viewBox="0 0 100 100" width="80"
+                         onclick="this.classList.toggle('active')">
+                        <path
+                                class="line top"
+                                d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"/>
+                        <path
+                                class="line middle"
+                                d="m 30,50 h 40"/>
+                        <path
+                                class="line bottom"
+                                d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"/>
+                    </svg>
+                </a>
+                <ul class="menu">
+                    <li>
+                        <a href="/index.html" class="text-decoration-none">Главная</a>
+                    </li>
+
+                    <li>
+                        <a href="/about.html" class="text-decoration-none">О нас</a>
+                    </li>
+                    <li>
+                        <a href="#" class="myLinkModal text-decoration-none">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<div class="port_page">
+    <div class="container">
+        <a href="/index.html" class="back_to_main"><i class="fas fa-long-arrow-alt-left" style="margin-right: 5px;"></i>Вернуться
+            на главную</a>
+        <div class="port_wrap">
+
+            <div class="port_title">
+                Здесь вы можете ознакомиться с тем<br>как мы воплощаем ваши идеи в реальность
+            </div>
+        </div>
+        <div class="port_btns">
+            <span class="tab">Все</span>
+            <span class="tab">Web</span>
+            <span class="tab">Mobile</span>
+        </div>
+    </div>
+
+</div>
+
+<div class="port_content">
+    <div class="container">
+
+        <div class="tab_item">
+
+            <div class="port_item">
+                <div class="port_item_left">
+                    <div class="port_item_left_title">
+                        Название компании
+                    </div>
+                    <div class="port_item_left_subtitle">
+                        Краткое описание вида работы
+                    </div>
+                    <div class="port_item_left_project">
+                        Рассказ о проекте
+                    </div>
+                    <div class="port_item_left_info">
+                        <div class="money">
+                            Бюджет:200 т.р.
+                        </div>
+                        <div class="time">
+                            Время отведенное для работ: 1мес.
+                        </div>
+                    </div>
+                </div>
+                <div class="port_item_right"><img src="/img/Macbook Pro.png"></div>
+            </div>
+
+            <div class="port_item">
+                <div class="port_item_left">
+                    <div class="port_item_left_title">
+                        Название компании
+                    </div>
+                    <div class="port_item_left_subtitle">
+                        Краткое описание вида работы
+                    </div>
+                    <div class="port_item_left_project">
+                        Рассказ о проекте
+                    </div>
+                    <div class="port_item_left_info">
+                        <div class="money">
+                            Бюджет:200 т.р.
+                        </div>
+                        <div class="time">
+                            Время отведенное для работ: 1мес.
+                        </div>
+                    </div>
+                </div>
+                <div class="port_item_right"><img src="/img/iPhone.png"></div>
+            </div>
+            <div class="port_item">
+                <div class="port_item_left">
+                    <div class="port_item_left_title">
+                        Название компании
+                    </div>
+                    <div class="port_item_left_subtitle">
+                        Краткое описание вида работы
+                    </div>
+                    <div class="port_item_left_project">
+                        Рассказ о проекте
+                    </div>
+                    <div class="port_item_left_info">
+                        <div class="money">
+                            Бюджет:200 т.р.
+                        </div>
+                        <div class="time">
+                            Время отведенное для работ: 1мес.
+                        </div>
+                    </div>
+                </div>
+                <div class="port_item_right"><img src="/img/Macbook Pro.png"></div>
+            </div>
+            <div class="port_item wanthere">
+                Хочу быть здесь
+            </div>
+        </div>
+
+
+        <div class="tab_item">
+
+            <div class="port_item">
+                <div class="port_item_left">
+                    <div class="port_item_left_title">
+                        Название компании
+                    </div>
+                    <div class="port_item_left_subtitle">
+                        Краткое описание вида работы
+                    </div>
+                    <div class="port_item_left_project">
+                        Рассказ о проекте
+                    </div>
+                    <div class="port_item_left_info">
+                        <div class="money">
+                            Бюджет:200 т.р.
+                        </div>
+                        <div class="time">
+                            Время отведенное для работ: 1мес.
+                        </div>
+                    </div>
+                </div>
+                <div class="port_item_right"><img src="/img/Macbook Pro.png"></div>
+            </div>
+        </div>
+
+        <div class="tab_item">
+
+            <div class="port_item">
+                <div class="port_item_left">
+                    <div class="port_item_left_title">
+                        Название компании
+                    </div>
+                    <div class="port_item_left_subtitle">
+                        Краткое описание вида работы
+                    </div>
+                    <div class="port_item_left_project">
+                        Рассказ о проекте
+                    </div>
+                    <div class="port_item_left_info">
+                        <div class="money">
+                            Бюджет:200 т.р.
+                        </div>
+                        <div class="time">
+                            Время отведенное для работ: 1мес.
+                        </div>
+                    </div>
+                </div>
+                <div class="port_item_right"><img src="/img/iPhone.png"></div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<footer id="rec4" class="footer">
+    <div class="container">
+        <div class="foot_content">
+            <div class="logo_footer">
+                <img src="img/logo2.png" alt="">
+            </div>
+            <div class="copyright1">
+                © <span id="year">2021</span> Все права защищены
+            </div>
+            <div class="foot_contact">
+                <img src="img/phone-ico.png">8 (909) 363-13-20<br><img src="img/mail-ico.png">sales@jetrabbits.com
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<div id="upbutton"><img src="img/up.png" alt=""></div>
+<script src="https://kit.fontawesome.com/55744dd039.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
